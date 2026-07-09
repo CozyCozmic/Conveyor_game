@@ -2695,7 +2695,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1431140719}
+  m_Mesh: {fileID: 1420144500}
 --- !u!114 &1308450427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3341,7 +3341,7 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!43 &1431140719
+--- !u!43 &1420144500
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
