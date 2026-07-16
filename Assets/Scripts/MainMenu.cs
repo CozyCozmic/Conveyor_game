@@ -3,6 +3,8 @@ using UnityEngine;
 public class MainMenu : MonoBehaviour
 {
     public GameObject mainMenuPanel;
+    public GameObject instructionsPanel;
+
 
     void Start()
     {
@@ -33,5 +35,18 @@ public class MainMenu : MonoBehaviour
     {
         Debug.Log("Quit button clicked!");
         Application.Quit();
+    }
+     public void OpenInstructions()
+    {
+        Debug.Log("Instructions button pressed!");
+        mainMenuPanel.SetActive(false);
+        instructionsPanel.SetActive(true);
+    }
+
+    public void CloseInstructions()
+    {
+        Debug.Log("Back button pressed!");
+        instructionsPanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
     }
 }
